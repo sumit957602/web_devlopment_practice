@@ -6,7 +6,7 @@ function ProductTab() {
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'center',
-        allignItems: 'center'
+        allignItems: 'center',
     }
     return (
         <div style={styles}>

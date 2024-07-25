@@ -7,8 +7,12 @@ function Price({ oldPrice, newPrice }) {
         fontWeight: 'bold',
     };
     let styles = {
+        display: 'flex',
+        allignItems: 'center',
+        justifyContent: 'center',
         backgroundColor: '#e0c367',
         height: '30px',
+        width: '200px',
         borderBottomLeftRadius: '14px',
         borderBottomRightRadius: '14px',
     };

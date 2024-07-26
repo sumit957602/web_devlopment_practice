@@ -1,14 +1,19 @@
 import './App.css'
+import EventPractice from './EventPractice.jsx'
+import CounterPractice from './CounterPractice.jsx'
+import StatePractice from './StatePractice.jsx'
+import LikeButtonPractice from './LikeButtonPractice.jsx'
+import LudoBoardGame from './LudoBoardGame.jsx'
 
 function App() {
-  let styles = {
-    color: 'red',
-    fontSize: '30px',
-  };
   return (
-    <>
-      <h1 style={styles}>Hello World</h1>
-    </>
+    <div>
+      {/* <EventPractice /> */}
+      {/* <CounterPractice /> */}
+      {/* <StatePractice/> */}
+      {/* <LikeButtonPractice /> */}
+      <LudoBoardGame/>
+    </div>
   )
 }
 

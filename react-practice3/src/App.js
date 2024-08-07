@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Item from './components/Item.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>React Practice 3</h1>
+      <Item />
     </div>
   );
 }
